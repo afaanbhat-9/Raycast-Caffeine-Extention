@@ -4,7 +4,11 @@
   "title": "Caffeine",
   "description": "Keep your Windows PC awake for a chosen duration or indefinitely without changing permanent Windows power settings.",
   "icon": "icon.png",
-  "author": "thomas",
+  "author": "afaan_mushtaq",
+  "contributors": [
+    "syed_hyder"
+  ],
+  "platforms": ["Windows"],
   "categories": [
     "System",
     "Productivity"
