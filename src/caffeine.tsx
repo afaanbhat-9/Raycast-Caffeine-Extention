@@ -294,7 +294,7 @@ function CustomDurationForm({ onStart }: { onStart: (seconds: number) => Promise
   const handleSubmit = async (values: { minutes: string }) => {
     const raw = (values.minutes || '').trim();
 
-    // Validate positive integer only: 1 to 10,080
+    // Validate positive integer only: 1 to 10,080 only
     if (!raw || !/^\d+$/.test(raw)) {
       setMinutesError('Enter a duration between 1 and 10,080 minutes.');
       return;
